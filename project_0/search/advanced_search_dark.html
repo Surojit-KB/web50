@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="variables_dark.css">
+    </head>
+    <body>
+        <div class="flex-nav">
+            <a href="index.html" class="home">
+                <img class="logo-img" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_light_clr_74x24px.svg" alt="Google Logo">
+            </a>
+            <span>
+                <a href="advanced_search.html">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Environment / Sun"> <path id="Vector" d="M12 4V2M12 20V22M6.41421 6.41421L5 5M17.728 17.728L19.1422 19.1422M4 12H2M20 12H22M17.7285 6.41421L19.1427 5M6.4147 17.728L5.00049 19.1422M12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+                </a>
+            </span>
+            <a class="font-sm" href="index_dark.html">Search</a>
+        </div>
+        <label class="page-header">Advanced Search</label>
+        <div class="ruler"></div>
+        <div class="advanced-container">
+            <form action="https://google.com/search">
+                <div class="row">
+                    <div class="col-2">
+                        <h3>Find pages with...</h3>
+                    </div>
+                    <div class="col-6"></div>
+                    <div class="col-4">
+                        <h3>To do this in the search box</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <label for="query">all these words:</label>
+                    </div>
+                    <div class="col-6">
+                        <input name="as_q" class="advanced-input" type="text" id="query">
+                    </div>
+                    <div class="col-4">
+                        Type the important words:
+                        <span>tri-color rat terrier</span>
+                    </div>
+                </div>      
+                <div class="row">
+                    <div class="col-2">
+                        <label for="exact_query">this exact word or phrase:</label>
+                    </div>
+                    <div class="col-6">
+                        <input name="as_epq" class="advanced-input" type="text" id="exact_query">
+                    </div>
+                    <div class="col-4">
+                        Put exact words in quotes:
+                        <span>"rat-terrier"</span>
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="col-2">
+                        <label for="any_query">any of these words:</label>
+                    </div>
+                    <div class="col-6">
+                        <input name="as_oq" class="advanced-input" type="text" id="any_query">
+                    </div>
+                    <div class="col-4">
+                        Type <span>OR&nbsp;</span>between all the words you want:
+                        <span>miniature OR standard</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <label for="no_query">none of these words:</label>
+                    </div>
+                    <div class="col-6">
+                        <input name="as_eq" class="advanced-input" type="text" id="no_query">
+                    </div>
+                    <div class="col-4">
+                        Put a minus sign just before words that you don't want:
+                        <span>-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-6">
+                        <input class="advanced-btn" type="submit" value="Advanced Search">
+                    </div>
+                    
+                </div>                       
+                    <!-- <div class="search-input" >
+                        <input class="text-area" tabindex="1" type="text" name="q" required>
+                    </div>
+                    <div>
+                        <input class="submit-btn" type="submit" value="Google Search">
+                    </div> -->
+            </form>
+        </div>
+    </body>
+</html>
