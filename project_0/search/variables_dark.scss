@@ -1,9 +1,11 @@
+// Variables
 $bgcolor: #202124;
 $hovercolor: #303134;
 $bordercolor: #5f6368;
 $fontcolor: #e8eaed;
 $inputcolor: #bdc1c6;
 
+//General
 * {
   box-sizing: border-box;
 }
@@ -140,27 +142,6 @@ h3 {
   }
 }
 
-.page-header {
-  display: inline-block;
-  margin: 25px 35px 25px 43px;
-  font-size: 20px;
-  color: #f28b82;
-}
-
-.advanced-container {
-  @extend %flex-container;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 30px;
-  margin-left: 45px;
-}
-
-.ruler {
-  border-bottom: 1px solid #3c4043;
-  padding: 0;
-  margin: 0;
-}
-
 .search-input {
   background-color: transparent;
   width: 80vw;
@@ -218,6 +199,43 @@ h3 {
   }
 }
 
+.logo-img {
+  position: relative;
+  width: 272px;
+  height: 92px;
+
+  span {
+    font-size: 16px;
+    color: #4487f6;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+  }
+}
+
+// Advanced Search
+
+.page-header {
+  display: inline-block;
+  margin: 25px 35px 25px 43px;
+  font-size: 20px;
+  color: #f28b82;
+}
+
+.advanced-container {
+  @extend %flex-container;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.ruler {
+  border-bottom: 1px solid #3c4043;
+  padding: 0;
+  margin: 0;
+}
+
 .advanced-btn {
   float: right;
   background-color: #8ab4f8;
@@ -236,20 +254,7 @@ h3 {
   }
 }
 
-.logo-img {
-  position: relative;
-  width: 272px;
-  height: 92px;
-
-  span {
-    font-size: 16px;
-    color: #4487f6;
-    position: absolute;
-    left: 215px;
-    bottom: 0;
-  }
-}
-
+// Responsive
 @media screen and (max-width: 1056px) {
   .col-2 {
     width: 30%;
