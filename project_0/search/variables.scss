@@ -104,13 +104,13 @@ h3 {
     &:hover {
       text-decoration: underline black solid 1px;
     }
-    .home {
-      position: absolute;
-      left: 10px;
-      img {
-        width: 74px;
-        height: 24px;
-      }
+  }
+  a.home {
+    position: absolute;
+    left: 10px;
+    img {
+      width: 74px;
+      height: 24px;
     }
   }
   span a {

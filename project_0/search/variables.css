@@ -93,11 +93,11 @@ h3 {
 .flex-nav a:hover {
   text-decoration: underline black solid 1px;
 }
-.flex-nav a .home {
+.flex-nav a.home {
   position: absolute;
   left: 10px;
 }
-.flex-nav a .home img {
+.flex-nav a.home img {
   width: 74px;
   height: 24px;
 }
